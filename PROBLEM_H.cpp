@@ -95,5 +95,5 @@ void main()
 		printArray(arrResult, arrLength);
 		printf("\n");
 	}	
-	_getch();
+	getch();
 }
