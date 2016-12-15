@@ -1,13 +1,4 @@
 #include <stdio.h>
-#include<conio.h>
-
-void getArray(int arr[], int length)
-{
-	for (int i = 0; i < length; i++)
-	{
-		scanf("%d", &arr[i]);
-	}
-}
 
 void printArray(int arr[], int length)
 {
@@ -77,7 +68,7 @@ void problemH(int result[], int &length, int m, int n)
 	ascendingOrder(result, length);
 }
 
-void main()
+int main()
 {
 	int m[100], n[100], numberOfTestCases;
 		scanf("%d", &numberOfTestCases);
@@ -96,4 +87,5 @@ void main()
 		printf("\n");
 	}	
 	getch();
+	return 0;
 }
